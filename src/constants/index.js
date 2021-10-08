@@ -1,4 +1,5 @@
 import Fonts from './fonts';
 import Colors from './colors';
 import StaticImages from './images';
-export {Fonts, Colors, StaticImages};
+import SvgData from './svg';
+export {Fonts, Colors, StaticImages, SvgData};

@@ -2,28 +2,28 @@ import React from 'react';
 import {View} from 'react-native';
 import {_Text} from '../';
 import styles from './style';
-import {StaticImages} from '../../constants';
+import {StaticImages, SvgData} from '../../constants';
+import {SvgDraw} from '../../components';
 
 const Header = () => {
   return (
     <View style={styles.container}>
-      <View>
-        <_Text style={styles.amountText} data={'11.00'} />
+      <View style={styles.amountView}>
+        <_Text style={styles.amountText} data={'€11.00'} />
         <_Text style={styles.savedText} data={'Saved'} />
       </View>
-      <View>
+      <View style={styles.coinView}>
         <_Text
           style={styles.amountText}
-          data={'11.00'}
-          imageLoaction={StaticImages.coinBig}
+          data={'764.2K'}
+          imageLoactionLeft={StaticImages.coinBig}
           imagePostion={'left'}
-          imageStyle={styles.coinImage}
+          imageStyleLeft={styles.coinImage}
+          imageConatinerStyle={styles.row}
         />
-        <_Text style={styles.savedText} data={'Saved'} />
       </View>
-      <View>
-        <_Text style={styles.amountText} data={'11.00'} />
-        <_Text style={styles.savedText} data={'Saved'} />
+      <View style={styles.userIconView}>
+        <SvgDraw svgData={SvgData.userImage} />
       </View>
     </View>
   );

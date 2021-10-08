@@ -1,16 +1,32 @@
 import React from 'react';
-import {Text, View, Image} from 'react-native';
+import {Text, View} from 'react-native';
+import {ImageDraw} from '../';
 
-const _Text = ({style, data, imageLoaction, imagePostion, imageStyle}) => {
+const _Text = ({
+  style,
+  data,
+  imageLoactionLeft,
+  imageStyleLeft,
+  imageLoactionRight,
+  imageStyleRight,
+  imageConatinerStyle,
+}) => {
   const Draw = (_data) => {
-    const DrawImage = () => {
-      return <Image style={imageStyle} source={imageLoaction} />;
-    };
     return (
-      <View>
-        {imageLoaction && imagePostion === 'left' && DrawImage()}
-        <Text style={style}>{_data} </Text>
-        {imageLoaction && imagePostion === 'right' && DrawImage()}
+      <View style={imageConatinerStyle}>
+        {imageLoactionLeft && (
+          <ImageDraw
+            imageLoaction={imageLoactionLeft}
+            imageStyle={imageStyleLeft}
+          />
+        )}
+        <Text style={style}>{_data}</Text>
+        {imageLoactionRight && (
+          <ImageDraw
+            imageLoaction={imageLoactionRight}
+            imageStyle={imageStyleRight}
+          />
+        )}
       </View>
     );
   };
