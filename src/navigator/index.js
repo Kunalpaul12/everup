@@ -6,11 +6,11 @@ const Stack = createStackNavigator();
 const Navigator = () => {
   return (
     <Stack.Navigator
+      headerMode="none"
       screenOptions={({route, navigation}) => ({
-        headerShown: false,
         gestureEnabled: false,
       })}>
-      <Stack.Screen name="Splash" component={Splash} headerShown={false} />
+      <Stack.Screen name="Splash" component={Splash} />
       <Stack.Screen name="Home" component={Home} />
     </Stack.Navigator>
   );

@@ -1,4 +1,4 @@
-export const Fonts = {
+export default {
   black: 'Chivo-Black',
   blackItalic: 'Chivo-BlackItalic',
   bold: 'Chivo-Bold',
