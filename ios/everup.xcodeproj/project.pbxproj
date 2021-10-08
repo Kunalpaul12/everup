@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00550DBBB27DEE0E42D0E50F /* libPods-everup-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD34E4FF4ADB979930EAA639 /* libPods-everup-tvOSTests.a */; };
 		00E356F31AD99517003FC87E /* everupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everupTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +15,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* everupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everupTests.m */; };
-		5AC509589A256922EAF4568D /* libPods-everup-everupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69534810D8A8DBDE184D86DF /* libPods-everup-everupTests.a */; };
+		60BE2E9A8A2B5DC24DAF35A4 /* libPods-everup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7787D42B1F36B334067D6669 /* libPods-everup.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DFA262CC266DDEE1FB4F5229 /* libPods-everup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F81BACDF7EC9B2777D5FCF /* libPods-everup.a */; };
-		FD3FC8E703E029D8AB91CCD7 /* libPods-everup-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BFD0F9F842229C801D1BDF /* libPods-everup-tvOS.a */; };
+		83E96A3F6ED191324EC00B73 /* libPods-everup-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919518A9147814A98CA038C6 /* libPods-everup-tvOSTests.a */; };
+		98F39B14497B1DCBD7D958C1 /* libPods-everup-everupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AED9072FC7ABE152F23D3402 /* libPods-everup-everupTests.a */; };
+		A17FA0F7D9BD3F013487947C /* libPods-everup-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB16C573AF568E7951420478 /* libPods-everup-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* everupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = everupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* everupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = everupTests.m; sourceTree = "<group>"; };
-		0A3CCADB749C472055066BB8 /* Pods-everup-everupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-everupTests.release.xcconfig"; path = "Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* everup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = everup/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = everup/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = everup/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = everup/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = everup/main.m; sourceTree = "<group>"; };
+		28EF353FEE1DD7A90F400588 /* Pods-everup-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-everup-tvOSTests/Pods-everup-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* everup-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "everup-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* everup-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "everup-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50F81BACDF7EC9B2777D5FCF /* libPods-everup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C170B20422D20F89DB53DBD /* Pods-everup-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-everup-tvOS/Pods-everup-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		69534810D8A8DBDE184D86DF /* libPods-everup-everupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup-everupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7132A9A2646CF6771F6BDDAE /* Pods-everup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup.release.xcconfig"; path = "Target Support Files/Pods-everup/Pods-everup.release.xcconfig"; sourceTree = "<group>"; };
-		720A70E7DA9C37F42C65B703 /* Pods-everup-everupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-everupTests.debug.xcconfig"; path = "Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B61B74ED2FC904A3E08D5BB /* Pods-everup-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-everup-tvOSTests/Pods-everup-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		57C5D7377A254199383E9E0F /* Pods-everup-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOS.release.xcconfig"; path = "Target Support Files/Pods-everup-tvOS/Pods-everup-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		60D6E14B84B0BC4EE379855E /* Pods-everup-everupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-everupTests.debug.xcconfig"; path = "Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7787D42B1F36B334067D6669 /* libPods-everup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = everup/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82BFD0F9F842229C801D1BDF /* libPods-everup-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85FC7C8391220BEEA6B358F7 /* Pods-everup-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOS.release.xcconfig"; path = "Target Support Files/Pods-everup-tvOS/Pods-everup-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E203777C9827352B6CA297E0 /* Pods-everup-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-everup-tvOSTests/Pods-everup-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		880DBFD00D18450787428232 /* Pods-everup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup.debug.xcconfig"; path = "Target Support Files/Pods-everup/Pods-everup.debug.xcconfig"; sourceTree = "<group>"; };
+		919518A9147814A98CA038C6 /* libPods-everup-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9703149F982C5951D2909C3A /* Pods-everup-everupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-everupTests.release.xcconfig"; path = "Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests.release.xcconfig"; sourceTree = "<group>"; };
+		AED9072FC7ABE152F23D3402 /* libPods-everup-everupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup-everupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B934A01F92A53F8591AB82E3 /* Pods-everup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup.release.xcconfig"; path = "Target Support Files/Pods-everup/Pods-everup.release.xcconfig"; sourceTree = "<group>"; };
+		DB16C573AF568E7951420478 /* libPods-everup-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE221603FDF18F46022FAD7 /* Pods-everup-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-everup-tvOS/Pods-everup-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC373773FA29FD27CA58611 /* Pods-everup-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-everup-tvOSTests/Pods-everup-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F08A7821F02414823183DC53 /* Pods-everup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup.debug.xcconfig"; path = "Target Support Files/Pods-everup/Pods-everup.debug.xcconfig"; sourceTree = "<group>"; };
-		FD34E4FF4ADB979930EAA639 /* libPods-everup-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everup-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC509589A256922EAF4568D /* libPods-everup-everupTests.a in Frameworks */,
+				98F39B14497B1DCBD7D958C1 /* libPods-everup-everupTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA262CC266DDEE1FB4F5229 /* libPods-everup.a in Frameworks */,
+				60BE2E9A8A2B5DC24DAF35A4 /* libPods-everup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3FC8E703E029D8AB91CCD7 /* libPods-everup-tvOS.a in Frameworks */,
+				A17FA0F7D9BD3F013487947C /* libPods-everup-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00550DBBB27DEE0E42D0E50F /* libPods-everup-tvOSTests.a in Frameworks */,
+				83E96A3F6ED191324EC00B73 /* libPods-everup-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,27 +141,26 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				50F81BACDF7EC9B2777D5FCF /* libPods-everup.a */,
-				69534810D8A8DBDE184D86DF /* libPods-everup-everupTests.a */,
-				82BFD0F9F842229C801D1BDF /* libPods-everup-tvOS.a */,
-				FD34E4FF4ADB979930EAA639 /* libPods-everup-tvOSTests.a */,
+				7787D42B1F36B334067D6669 /* libPods-everup.a */,
+				AED9072FC7ABE152F23D3402 /* libPods-everup-everupTests.a */,
+				DB16C573AF568E7951420478 /* libPods-everup-tvOS.a */,
+				919518A9147814A98CA038C6 /* libPods-everup-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		59B6B8F0223022C9592705DB /* Pods */ = {
+		7C6F3876A5383F87ECE1BAD6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F08A7821F02414823183DC53 /* Pods-everup.debug.xcconfig */,
-				7132A9A2646CF6771F6BDDAE /* Pods-everup.release.xcconfig */,
-				720A70E7DA9C37F42C65B703 /* Pods-everup-everupTests.debug.xcconfig */,
-				0A3CCADB749C472055066BB8 /* Pods-everup-everupTests.release.xcconfig */,
-				5C170B20422D20F89DB53DBD /* Pods-everup-tvOS.debug.xcconfig */,
-				85FC7C8391220BEEA6B358F7 /* Pods-everup-tvOS.release.xcconfig */,
-				E203777C9827352B6CA297E0 /* Pods-everup-tvOSTests.debug.xcconfig */,
-				7B61B74ED2FC904A3E08D5BB /* Pods-everup-tvOSTests.release.xcconfig */,
+				880DBFD00D18450787428232 /* Pods-everup.debug.xcconfig */,
+				B934A01F92A53F8591AB82E3 /* Pods-everup.release.xcconfig */,
+				60D6E14B84B0BC4EE379855E /* Pods-everup-everupTests.debug.xcconfig */,
+				9703149F982C5951D2909C3A /* Pods-everup-everupTests.release.xcconfig */,
+				DCE221603FDF18F46022FAD7 /* Pods-everup-tvOS.debug.xcconfig */,
+				57C5D7377A254199383E9E0F /* Pods-everup-tvOS.release.xcconfig */,
+				DDC373773FA29FD27CA58611 /* Pods-everup-tvOSTests.debug.xcconfig */,
+				28EF353FEE1DD7A90F400588 /* Pods-everup-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,7 +179,7 @@
 				00E356EF1AD99517003FC87E /* everupTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				59B6B8F0223022C9592705DB /* Pods */,
+				7C6F3876A5383F87ECE1BAD6 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,12 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "everupTests" */;
 			buildPhases = (
-				F3D6C61B5D7095A03843C186 /* [CP] Check Pods Manifest.lock */,
+				D6578FEAF643313BB58D070C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A7D07E73B9D2D44034661A77 /* [CP] Embed Pods Frameworks */,
-				DFE4B12BA2DFD3E9E94AC3D5 /* [CP] Copy Pods Resources */,
+				524763B2E4569F9037047B0F /* [CP] Embed Pods Frameworks */,
+				3AF87EAD4A166B93838501AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,14 +225,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "everup" */;
 			buildPhases = (
-				B8D1253D6E253D9A14CF2F4F /* [CP] Check Pods Manifest.lock */,
+				51CEF56D432857355FBD7446 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				107B58670674811CB88A0152 /* [CP] Embed Pods Frameworks */,
-				101BB02916CE2C3F24CDF908 /* [CP] Copy Pods Resources */,
+				FC56F13673BFC94A16DCA048 /* [CP] Embed Pods Frameworks */,
+				343EB280258FA5DA7F43AB3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everup-tvOS" */;
 			buildPhases = (
-				9D98A0DF98F0F6AA5505D26D /* [CP] Check Pods Manifest.lock */,
+				50A173698F651ECEDA80790D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -268,7 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everup-tvOSTests" */;
 			buildPhases = (
-				F951C2F5164AC0B985E981E0 /* [CP] Check Pods Manifest.lock */,
+				10A0083C8AE438052DCD16CB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -296,6 +295,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = D6WN6BDJ7R;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -379,7 +379,43 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		101BB02916CE2C3F24CDF908 /* [CP] Copy Pods Resources */ = {
+		10A0083C8AE438052DCD16CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-everup-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		343EB280258FA5DA7F43AB3F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,39 +433,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup/Pods-everup-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		107B58670674811CB88A0152 /* [CP] Embed Pods Frameworks */ = {
+		3AF87EAD4A166B93838501AB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-everup/Pods-everup-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+				"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup/Pods-everup-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		9D98A0DF98F0F6AA5505D26D /* [CP] Check Pods Manifest.lock */ = {
+		50A173698F651ECEDA80790D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,25 +473,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A7D07E73B9D2D44034661A77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8D1253D6E253D9A14CF2F4F /* [CP] Check Pods Manifest.lock */ = {
+		51CEF56D432857355FBD7446 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,25 +495,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFE4B12BA2DFD3E9E94AC3D5 /* [CP] Copy Pods Resources */ = {
+		524763B2E4569F9037047B0F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup-everupTests/Pods-everup-everupTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3D6C61B5D7095A03843C186 /* [CP] Check Pods Manifest.lock */ = {
+		D6578FEAF643313BB58D070C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,26 +535,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F951C2F5164AC0B985E981E0 /* [CP] Check Pods Manifest.lock */ = {
+		FC56F13673BFC94A16DCA048 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-everup/Pods-everup-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-everup-tvOSTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everup/Pods-everup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -646,7 +646,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 720A70E7DA9C37F42C65B703 /* Pods-everup-everupTests.debug.xcconfig */;
+			baseConfigurationReference = 60D6E14B84B0BC4EE379855E /* Pods-everup-everupTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -669,7 +669,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A3CCADB749C472055066BB8 /* Pods-everup-everupTests.release.xcconfig */;
+			baseConfigurationReference = 9703149F982C5951D2909C3A /* Pods-everup-everupTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -689,11 +689,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F08A7821F02414823183DC53 /* Pods-everup.debug.xcconfig */;
+			baseConfigurationReference = 880DBFD00D18450787428232 /* Pods-everup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6WN6BDJ7R;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = everup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -702,7 +703,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.testing;
 				PRODUCT_NAME = everup;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -712,11 +713,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7132A9A2646CF6771F6BDDAE /* Pods-everup.release.xcconfig */;
+			baseConfigurationReference = B934A01F92A53F8591AB82E3 /* Pods-everup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6WN6BDJ7R;
 				INFOPLIST_FILE = everup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -724,7 +726,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.testing;
 				PRODUCT_NAME = everup;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -733,7 +735,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C170B20422D20F89DB53DBD /* Pods-everup-tvOS.debug.xcconfig */;
+			baseConfigurationReference = DCE221603FDF18F46022FAD7 /* Pods-everup-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -761,7 +763,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FC7C8391220BEEA6B358F7 /* Pods-everup-tvOS.release.xcconfig */;
+			baseConfigurationReference = 57C5D7377A254199383E9E0F /* Pods-everup-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -789,7 +791,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E203777C9827352B6CA297E0 /* Pods-everup-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = DDC373773FA29FD27CA58611 /* Pods-everup-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -816,7 +818,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B61B74ED2FC904A3E08D5BB /* Pods-everup-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 28EF353FEE1DD7A90F400588 /* Pods-everup-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
