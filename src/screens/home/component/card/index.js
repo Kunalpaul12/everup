@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, FlatList} from 'react-native';
 import styles from './style';
 import {ImageDraw, _Text} from '../../../../components';
+import AnimatedNumbers from 'react-native-animated-numbers';
 
 const LottoCard = ({
   imageLoaction,
@@ -13,6 +14,15 @@ const LottoCard = ({
   Line,
   nextDrawNumber,
 }) => {
+  const [animateAmount, setAnimateAmount] = React.useState(0);
+
+  useEffect(() => {
+    setAmount();
+  }, []);
+
+  const setAmount = () => {
+    setTimeout(() => setAnimateAmount(animateAmount + amount), 500);
+  };
   const Header = () => {
     return (
       <View style={styles.headerConatiner}>
@@ -22,7 +32,12 @@ const LottoCard = ({
             data={'Jackpot'}
             style={styles.jackpotText}
             imageConatinerStyle={styles.row}>
-            <_Text data={`${amount}`} style={styles.amount} />
+            <_Text data={' €'} style={styles.amount} />
+            <AnimatedNumbers
+              includeComma
+              animateToNumber={animateAmount}
+              fontStyle={styles.amount}
+            />
           </_Text>
         </View>
         <View style={styles.imageConatiner}>
@@ -82,6 +97,15 @@ const LottoCard = ({
   };
 
   const Draw = () => {
+    const DateTime = (data, label) => {
+      return (
+        <View style={styles.dateTimeConatiner}>
+          <_Text data={data} style={styles.dateTime} />
+          <_Text data={label} style={styles.dateTimeLabel} />
+        </View>
+      );
+    };
+
     return (
       <View style={styles.drawConatiner}>
         <_Text
@@ -92,8 +116,12 @@ const LottoCard = ({
           <_Text data={' closes in:'} style={styles.dayText} />
         </_Text>
         <View style={styles.timmerConatiner}>
-          <_Text data={'timmer'} style={styles.timeText} />
+          {DateTime('01', 'days')}
+          {DateTime('20', 'hrs')}
+          {DateTime('56', 'min')}
+          {DateTime('55', 'sec')}
         </View>
+
         <_Text data={'Next 7th oct at 14.00'} style={styles.nextTimerText} />
       </View>
     );

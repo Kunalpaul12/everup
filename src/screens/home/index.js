@@ -25,7 +25,7 @@ const Home = () => {
         />
         {Line()}
         <LottoCard
-          amount={'€1,000,000'}
+          amount={1000000}
           imageLoaction={StaticImages.rightArrowOrange}
           day={'Thursday'}
           time={'6 PM'}
