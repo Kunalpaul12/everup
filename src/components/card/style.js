@@ -10,7 +10,7 @@ export default {
     borderRadius: 10,
     alignSelf: 'center',
     marginTop: 30,
-    marginBottom: 30,
+    marginBottom: 40,
     backgroundColor: Colors.white,
   },
   winConatiner: {

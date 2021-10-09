@@ -4,5 +4,6 @@ import Status from './statusBar';
 import ImageDraw from './image';
 import SvgDraw from './svg';
 import Card from './card';
+import {ButtonDetail} from './button';
 
-export {Header, _Text, Status, ImageDraw, SvgDraw, Card};
+export {Header, _Text, Status, ImageDraw, SvgDraw, Card, ButtonDetail};

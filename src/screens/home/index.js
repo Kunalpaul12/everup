@@ -1,8 +1,9 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
-import {Header, Card, _Text} from '../../components';
+import {Header, Card, _Text, ButtonDetail} from '../../components';
 import styles from './style';
 import {StaticImages} from '../../constants';
+import {LottoCard} from './component';
 
 const Home = () => {
   const Line = () => {
@@ -10,8 +11,8 @@ const Home = () => {
   };
   return (
     <View style={styles.coantiner}>
-      <Header />
-      <ScrollView>
+      <Header amount={'€11.00'} coinAmount={'764.2K'} />
+      <ScrollView contentContainerStyle={styles.scrollView}>
         <Card
           imageBackgroundLoaction={StaticImages.jakarta}
           imageBackgroundStyle={styles.imageBackgound}
@@ -21,6 +22,15 @@ const Home = () => {
           coinAmount={'5K'}
           place={'Jakarta'}
           playText={'scratcher'}
+        />
+        {Line()}
+        <LottoCard
+          amount={'€1,000,000'}
+          imageLoaction={StaticImages.rightArrowOrange}
+          day={'Thursday'}
+          time={'6 PM'}
+          winNumber={[9, 5, 0, 4, 9, 0, 3, 1, StaticImages.watermelon]}
+          winImage={StaticImages.watermelon}
         />
         {Line()}
         <View style={styles.headLineConatiner}>
@@ -37,6 +47,16 @@ const Home = () => {
           playText={'scratcher'}
         />
         {Line()}
+        <View style={styles.buttonConatiner}>
+          <ButtonDetail
+            label={'Competition Rules'}
+            imageLoaction={StaticImages.rightArrowGrey}
+          />
+          <ButtonDetail
+            label={'Competition Rules'}
+            imageLoaction={StaticImages.rightArrowGrey}
+          />
+        </View>
       </ScrollView>
     </View>
   );

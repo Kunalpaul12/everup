@@ -5,17 +5,17 @@ import styles from './style';
 import {StaticImages, SvgData} from '../../constants';
 import {SvgDraw} from '../../components';
 
-const Header = () => {
+const Header = ({amount, coinAmount}) => {
   return (
     <View style={styles.container}>
       <View style={styles.amountView}>
-        <_Text style={styles.amountText} data={'€11.00'} />
+        <_Text style={styles.amountText} data={`${amount}`} />
         <_Text style={styles.savedText} data={'Saved'} />
       </View>
       <View style={styles.coinView}>
         <_Text
           style={styles.amountText}
-          data={'764.2K'}
+          data={`${coinAmount}`}
           imageLoactionLeft={StaticImages.coinBig}
           imagePostion={'left'}
           imageStyleLeft={styles.coinImage}

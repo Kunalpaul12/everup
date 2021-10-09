@@ -29,6 +29,7 @@ export default {
   coinImage: {
     width: 30,
     height: 30,
+    bottom: 2,
     resizeMode: 'contain',
   },
   row: {

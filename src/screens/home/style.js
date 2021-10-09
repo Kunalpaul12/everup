@@ -19,7 +19,6 @@ export default {
     opacity: 0.1,
     width: width / 1.1,
     alignSelf: 'center',
-    marginTop: 15,
   },
   headLineConatiner: {
     width: width / 1.1,
@@ -30,5 +29,11 @@ export default {
     fontSize: 20,
     fontFamily: Fonts.bold,
     color: Colors.black,
+  },
+  buttonConatiner: {
+    marginTop: 30,
+  },
+  scrollView: {
+    paddingBottom: 30,
   },
 };

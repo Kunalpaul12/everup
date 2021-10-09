@@ -10,6 +10,7 @@ const _Text = ({
   imageLoactionRight,
   imageStyleRight,
   imageConatinerStyle,
+  children,
 }) => {
   const Draw = (_data) => {
     return (
@@ -27,6 +28,7 @@ const _Text = ({
             imageStyle={imageStyleRight}
           />
         )}
+        {children}
       </View>
     );
   };
