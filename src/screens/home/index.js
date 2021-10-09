@@ -30,7 +30,9 @@ const Home = () => {
           day={'Thursday'}
           time={'6 PM'}
           winNumber={[9, 5, 0, 4, 9, 0, 3, 1, StaticImages.watermelon]}
-          winImage={StaticImages.watermelon}
+          drawNumber={26597}
+          Line={() => Line()}
+          nextDrawNumber={14}
         />
         {Line()}
         <View style={styles.headLineConatiner}>

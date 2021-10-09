@@ -3,7 +3,16 @@ import {View, FlatList} from 'react-native';
 import styles from './style';
 import {ImageDraw, _Text} from '../../../../components';
 
-const LottoCard = ({imageLoaction, amount, day, time, winNumber, winImage}) => {
+const LottoCard = ({
+  imageLoaction,
+  amount,
+  day,
+  time,
+  winNumber,
+  drawNumber,
+  Line,
+  nextDrawNumber,
+}) => {
   const Header = () => {
     return (
       <View style={styles.headerConatiner}>
@@ -72,12 +81,46 @@ const LottoCard = ({imageLoaction, amount, day, time, winNumber, winImage}) => {
     );
   };
 
+  const Draw = () => {
+    return (
+      <View style={styles.drawConatiner}>
+        <_Text
+          data={'Draw'}
+          style={styles.dayText}
+          imageConatinerStyle={styles.row}>
+          <_Text data={` ${drawNumber}`} style={styles.timeText} />
+          <_Text data={' closes in:'} style={styles.dayText} />
+        </_Text>
+        <View style={styles.timmerConatiner}>
+          <_Text data={'timmer'} style={styles.timeText} />
+        </View>
+        <_Text data={'Next 7th oct at 14.00'} style={styles.nextTimerText} />
+      </View>
+    );
+  };
+
+  const Enitries = () => {
+    return (
+      <View style={styles.enitriesConatiner}>
+        <_Text
+          data={'Your entries into the next draw: '}
+          style={styles.dayText}
+          imageConatinerStyle={styles.row}>
+          <_Text data={`${nextDrawNumber}`} style={styles.timeText} />
+        </_Text>
+      </View>
+    );
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.innerContiner}>
         {Header()}
         {DayTime()}
         {Winning()}
+        {Draw()}
+        {Line()}
+        {Enitries()}
       </View>
     </View>
   );

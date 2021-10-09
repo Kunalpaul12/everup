@@ -6,7 +6,7 @@ const {width} = Dimensions.get('window');
 export default {
   container: {
     width: width / 1.1,
-    height: 400,
+    height: 515,
     borderRadius: 10,
     backgroundColor: Colors.white,
     alignSelf: 'center',
@@ -105,5 +105,36 @@ export default {
     width: 14,
     height: 14,
     resizeMode: 'contain',
+  },
+  drawConatiner: {
+    width: '95%',
+    height: 150,
+    alignSelf: 'center',
+    marginTop: 25,
+    alignItems: 'center',
+    borderColor: 'red',
+    borderWidth: 1,
+    marginBottom: 30,
+  },
+  timmerConatiner: {
+    height: 100,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderColor: 'green',
+    borderWidth: 1,
+  },
+  nextTimerText: {
+    fontSize: 15,
+    fontFamily: Fonts.bold,
+    color: Colors.black,
+    textAlign: 'center',
+    opacity: 0.8,
+  },
+  enitriesConatiner: {
+    width: '100%',
+    height: 55,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 };
