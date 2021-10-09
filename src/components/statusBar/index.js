@@ -12,7 +12,7 @@ const Status = () => {
 
 const styles = StyleSheet.create({
   StatusBar: {
-    height: Platform.OS === 'ios' ? 45 : StatusBar.currentHeight,
+    height: Platform.OS === 'ios' ? 45 : 0,
     backgroundColor: Colors.header,
   },
 });

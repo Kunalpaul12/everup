@@ -20,9 +20,24 @@ const LottoCard = ({
   const [min, setMin] = React.useState(15);
   const [sec, setSec] = React.useState(30);
 
+  let timmerInterval;
+
   useEffect(() => {
     setAmount();
-    let myInterval = setInterval(() => {
+    return () => {
+      clearInterval(timmerInterval);
+    };
+  }, []);
+
+  const setAmount = () => {
+    setTimeout(() => {
+      setAnimateAmount(animateAmount + amount);
+      setTimer();
+    }, 500);
+  };
+
+  const setTimer = () => {
+    timmerInterval = setInterval(() => {
       setSec((s) => {
         if (s === 0) {
           setMin((m) => {
@@ -41,13 +56,6 @@ const LottoCard = ({
         return 59;
       });
     }, 1000);
-    return () => {
-      clearInterval(myInterval);
-    };
-  }, []);
-
-  const setAmount = () => {
-    setTimeout(() => setAnimateAmount(animateAmount + amount), 500);
   };
 
   const Header = () => {

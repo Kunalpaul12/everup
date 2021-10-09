@@ -7,7 +7,7 @@ export default {
   container: {
     flexDirection: 'row',
     width,
-    height: 95,
+    height: 85,
     backgroundColor: Colors.header,
     borderBottomRightRadius: 20,
     borderBottomLeftRadius: 20,
