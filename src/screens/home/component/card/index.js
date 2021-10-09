@@ -17,19 +17,28 @@ const LottoCard = ({
   const [animateAmount, setAnimateAmount] = React.useState(0);
   const [days, setDay] = React.useState('10');
   const [hrs, sethrs] = React.useState(11);
-  const [min, setMin] = React.useState(57);
-  const [sec, setSec] = React.useState(10);
+  const [min, setMin] = React.useState(15);
+  const [sec, setSec] = React.useState(30);
 
   useEffect(() => {
     setAmount();
     let myInterval = setInterval(() => {
       setSec((s) => {
         if (s === 0) {
-          setMin((m) => m - 1);
-          return 59;
-        } else {
+          setMin((m) => {
+            if (m === 0) {
+              sethrs((h) => h - 1);
+            }
+            if (m > 0) {
+              return m - 1;
+            }
+            return 59;
+          });
+        }
+        if (s > 0) {
           return s - 1;
         }
+        return 59;
       });
     }, 1000);
     return () => {
