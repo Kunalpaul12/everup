@@ -15,14 +15,32 @@ const LottoCard = ({
   nextDrawNumber,
 }) => {
   const [animateAmount, setAnimateAmount] = React.useState(0);
+  const [days, setDay] = React.useState('10');
+  const [hrs, sethrs] = React.useState(11);
+  const [min, setMin] = React.useState(57);
+  const [sec, setSec] = React.useState(10);
 
   useEffect(() => {
     setAmount();
+    let myInterval = setInterval(() => {
+      setSec((s) => {
+        if (s === 0) {
+          setMin((m) => m - 1);
+          return 59;
+        } else {
+          return s - 1;
+        }
+      });
+    }, 1000);
+    return () => {
+      clearInterval(myInterval);
+    };
   }, []);
 
   const setAmount = () => {
     setTimeout(() => setAnimateAmount(animateAmount + amount), 500);
   };
+
   const Header = () => {
     return (
       <View style={styles.headerConatiner}>
@@ -100,7 +118,11 @@ const LottoCard = ({
     const DateTime = (data, label) => {
       return (
         <View style={styles.dateTimeConatiner}>
-          <_Text data={data} style={styles.dateTime} />
+          <AnimatedNumbers
+            includeComma
+            animateToNumber={data}
+            fontStyle={styles.dateTime}
+          />
           <_Text data={label} style={styles.dateTimeLabel} />
         </View>
       );
@@ -116,10 +138,10 @@ const LottoCard = ({
           <_Text data={' closes in:'} style={styles.dayText} />
         </_Text>
         <View style={styles.timmerConatiner}>
-          {DateTime('01', 'days')}
-          {DateTime('20', 'hrs')}
-          {DateTime('56', 'min')}
-          {DateTime('55', 'sec')}
+          {DateTime(days, 'days')}
+          {DateTime(hrs, 'hrs')}
+          {DateTime(min, 'min')}
+          {DateTime(sec, 'sec')}
         </View>
 
         <_Text data={'Next 7th oct at 14.00'} style={styles.nextTimerText} />
