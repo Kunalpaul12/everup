@@ -1,19 +1,16 @@
 import React, {useEffect} from 'react';
 import {ImageBackground} from 'react-native';
-import {useNavigation, CommonActions} from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 import SplashScreen from 'react-native-splash-screen';
 import {StaticImages} from '../../constants';
 import styles from './style';
+import {StackActions} from '@react-navigation/native';
 const Splash = () => {
   const navigation = useNavigation();
   useEffect(() => {
     SplashScreen.hide();
     setTimeout(() => {
-      navigation.dispatch(
-        CommonActions.navigate({
-          name: 'Home',
-        }),
-      );
+      navigation.dispatch(StackActions.replace('Home'));
     }, 500);
   }, []);
 
