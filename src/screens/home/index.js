@@ -18,7 +18,7 @@ const Home = () => {
           imageBackgroundStyle={styles.imageBackgound}
           imageTag={StaticImages.newTag}
           amount={5}
-          imageCoin={StaticImages.coinSmall}
+          imageCoin={StaticImages.coinMedium}
           coinAmount={'5K'}
           place={'Jakarta'}
           playText={'scratcher'}
