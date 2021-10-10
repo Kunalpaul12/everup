@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* everupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everupTests.m */; };
+		0C0B28F12712D0BC00500047 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B28F02712D0BC00500047 /* File.swift */; };
 		0CBCF2E6606B42B206199176 /* libPods-everup-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AF59FFFB0F4B2945BDD8DD /* libPods-everup-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -54,6 +55,8 @@
 		00E356F21AD99517003FC87E /* everupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = everupTests.m; sourceTree = "<group>"; };
 		02604FDB6DD2EA50280CC7C7 /* Pods-everup-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everup-tvOS.release.xcconfig"; path = "Target Support Files/Pods-everup-tvOS/Pods-everup-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		06A9FEAB3B9C481B92BB4748 /* Chivo-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Chivo-BlackItalic.ttf"; path = "../src/assets/fonts/Chivo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0C0B28EF2712D0BC00500047 /* everup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "everup-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C0B28F02712D0BC00500047 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* everup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = everup/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = everup/AppDelegate.m; sourceTree = "<group>"; };
@@ -190,6 +193,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0C0B28F02712D0BC00500047 /* File.swift */,
 				13B07FAE1A68108700A75B9A /* everup */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* everupTests */,
@@ -197,6 +201,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7C6F3876A5383F87ECE1BAD6 /* Pods */,
 				E6994573B2E240E092DE92BC /* Resources */,
+				0C0B28EF2712D0BC00500047 /* everup-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -328,7 +333,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = D6WN6BDJ7R;
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -647,6 +652,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				0C0B28F12712D0BC00500047 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,6 +694,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BCD933B914DCA9F1DB431AB /* Pods-everup-everupTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -711,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C312A455943A7ED779CB16AC /* Pods-everup-everupTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = everupTests/Info.plist;
@@ -745,6 +753,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.testing;
 				PRODUCT_NAME = everup;
+				SWIFT_OBJC_BRIDGING_HEADER = "everup-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -761,6 +770,7 @@
 				DEVELOPMENT_TEAM = D6WN6BDJ7R;
 				INFOPLIST_FILE = everup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -768,6 +778,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.testing;
 				PRODUCT_NAME = everup;
+				SWIFT_OBJC_BRIDGING_HEADER = "everup-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
