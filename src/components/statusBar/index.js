@@ -1,6 +1,8 @@
 import React from 'react';
-import {View, StatusBar, StyleSheet, Platform} from 'react-native';
+import {View, StatusBar, StyleSheet, Platform, Dimensions} from 'react-native';
 import {Colors} from '../../constants';
+
+const {height} = Dimensions.get('window');
 
 const Status = () => {
   return (
@@ -12,7 +14,7 @@ const Status = () => {
 
 const styles = StyleSheet.create({
   StatusBar: {
-    height: Platform.OS === 'ios' ? 45 : 0,
+    height: Platform.OS === 'ios' ? height / 18 : 0,
     backgroundColor: Colors.header,
   },
 });

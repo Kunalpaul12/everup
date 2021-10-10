@@ -1,13 +1,14 @@
 import {Colors, Fonts} from '../../constants';
-import {Dimensions} from 'react-native';
+import {Dimensions, Platform} from 'react-native';
 
 const {width} = Dimensions.get('window');
 
 export default {
   container: {
     flexDirection: 'row',
+    paddingTop: Platform.OS === 'ios' ? 0 : 15,
+    paddingBottom: 15,
     width,
-    height: 85,
     backgroundColor: Colors.header,
     borderBottomRightRadius: 20,
     borderBottomLeftRadius: 20,

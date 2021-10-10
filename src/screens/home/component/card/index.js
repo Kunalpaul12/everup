@@ -15,47 +15,47 @@ const LottoCard = ({
   nextDrawNumber,
 }) => {
   const [animateAmount, setAnimateAmount] = React.useState(0);
-  const [days, setDay] = React.useState('10');
+  const [days, setDay] = React.useState(10);
   const [hrs, sethrs] = React.useState(11);
   const [min, setMin] = React.useState(15);
-  const [sec, setSec] = React.useState(30);
-
-  let timmerInterval;
+  const [sec, setSec] = React.useState(10);
+  const [startCounter, setStartCounter] = React.useState(false);
 
   useEffect(() => {
     setAmount();
-    return () => {
-      clearInterval(timmerInterval);
-    };
   }, []);
+
+  useEffect(() => {
+    let timmerInterval;
+    if (startCounter) {
+      timmerInterval = setInterval(() => {
+        if (sec === 0) {
+          setMin(min - 1);
+          setSec(59);
+        } else {
+          setSec(sec - 1);
+        }
+        if (min === 0) {
+          setMin(59);
+          sethrs(hrs - 1);
+        }
+        if (hrs === 0) {
+          setDay(days - 1);
+          sethrs(24);
+        }
+      }, 1000);
+    }
+
+    return () => clearInterval(timmerInterval);
+  }, [startCounter, sec, min, hrs, days]);
 
   const setAmount = () => {
     setTimeout(() => {
       setAnimateAmount(animateAmount + amount);
-      setTimer();
     }, 500);
-  };
-
-  const setTimer = () => {
-    timmerInterval = setInterval(() => {
-      setSec((s) => {
-        if (s === 0) {
-          setMin((m) => {
-            if (m === 0) {
-              sethrs((h) => h - 1);
-            }
-            if (m > 0) {
-              return m - 1;
-            }
-            return 59;
-          });
-        }
-        if (s > 0) {
-          return s - 1;
-        }
-        return 59;
-      });
-    }, 1000);
+    setTimeout(() => {
+      setStartCounter(true);
+    }, 2000);
   };
 
   const Header = () => {
