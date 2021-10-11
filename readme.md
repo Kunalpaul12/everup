@@ -2,6 +2,10 @@
 
 ### This application is build on react native version 0.63.0 with node version 12.0.0 ⚛️
 
+# Demo
+
+![Android](https://media.giphy.com/media/o49vrUx8hVmpEv60bb/giphy.gif)
+
 # Installaion Requirement
 
 ### Android
