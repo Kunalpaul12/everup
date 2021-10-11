@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, ScrollView} from 'react-native';
 import {Header, Card, _Text, ButtonDetail} from '../../components';
 import styles from './style';
 import {StaticImages} from '../../constants';
 import {LottoCard} from './component';
+import SplashScreen from 'react-native-splash-screen';
 
 const Home = () => {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
+
   const Line = () => {
     return <View style={styles.line} />;
   };

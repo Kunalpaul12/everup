@@ -10,7 +10,7 @@ const Navigator = () => {
       screenOptions={({route, navigation}) => ({
         gestureEnabled: false,
       })}>
-      <Stack.Screen name="Splash" component={Splash} />
+      {/* <Stack.Screen name="Splash" component={Splash} /> */}
       <Stack.Screen name="Home" component={Home} />
     </Stack.Navigator>
   );
