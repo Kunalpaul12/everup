@@ -4,9 +4,11 @@
 
 # Demo
 
-!["Android"](https://media.giphy.com/media/o49vrUx8hVmpEv60bb/giphy.gif)
+- Android
+  !["Android"](https://media.giphy.com/media/o49vrUx8hVmpEv60bb/giphy.gif)
 
-!["IOS"](https://media.giphy.com/media/4PtjEfK2bJYaSoLIWG/giphy.gif)
+- IOS
+  !["IOS"](https://media.giphy.com/media/4PtjEfK2bJYaSoLIWG/giphy.gif)
 
 # Installaion Requirement
 
