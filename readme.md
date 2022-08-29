@@ -43,3 +43,5 @@ To install it npm install --global yarn
 - To run on android (npx react-native run-android)
 
 - To run on ios (npx react-native run-ios)
+
+<a href="https://ibb.co/G3FJwH9"><img src="https://i.ibb.co/1JbnVzM/Screenshot-2022-08-29-at-8-09-53-PM.png" alt="Screenshot-2022-08-29-at-8-09-53-PM" border="0" /></a>
