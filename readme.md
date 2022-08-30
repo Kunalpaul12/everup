@@ -10,7 +10,7 @@ Android
 
 !["Android"](https://media.giphy.com/media/o49vrUx8hVmpEv60bb/giphy.gif)
 
-!["Android"](https://s6.gifyu.com/images/android.gif)
+!["Android"](https://media.giphy.com/media/ZWMgLN4TxZmg2ywA04/giphy.gif)
 
 IOS
 
