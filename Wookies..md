@@ -6,7 +6,7 @@
 
 Android
 
-!["Android"](https://media.giphy.com/media/YWUN7QeZt0YFSWxfmS/giphy.gif)
+!["Android"](https://media.giphy.com/media/xp8XWEnrztqjqVImrr/giphy.gif)
 
 IOS
 
