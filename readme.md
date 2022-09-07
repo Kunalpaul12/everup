@@ -6,11 +6,7 @@
 
 Android
 
-<a href="https://gifyu.com/image/Sw9sC"><img src="https://s6.gifyu.com/images/android.th.gif" alt="android.gif" border="0" /></a>
-
 !["Android"](https://media.giphy.com/media/o49vrUx8hVmpEv60bb/giphy.gif)
-
-!["Android"](https://media.giphy.com/media/ZWMgLN4TxZmg2ywA04/giphy.gif)
 
 IOS
 
